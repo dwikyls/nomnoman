@@ -42,42 +42,4 @@ class DefaultFirebaseOptions {
         );
     }
   }
-
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCTM2PLPEayDT1LRqFHepS-j5tPgAWD_vw',
-    appId: '1:378055318934:web:1958a1340378ba0f2011b7',
-    messagingSenderId: '378055318934',
-    projectId: 'nomnoman-f80eb',
-    authDomain: 'nomnoman-f80eb.firebaseapp.com',
-    storageBucket: 'nomnoman-f80eb.appspot.com',
-    measurementId: 'G-5B3YPF3RSR',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAnAkqMhlbyF60XaWXthQCRfIWYDSw6uQc',
-    appId: '1:378055318934:android:e6326ae71d00d2772011b7',
-    messagingSenderId: '378055318934',
-    projectId: 'nomnoman-f80eb',
-    storageBucket: 'nomnoman-f80eb.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBnP5oCGTe7jydqDZF0_u01TE7MeqrJQkY',
-    appId: '1:378055318934:ios:6d853d4e8739f9652011b7',
-    messagingSenderId: '378055318934',
-    projectId: 'nomnoman-f80eb',
-    storageBucket: 'nomnoman-f80eb.appspot.com',
-    iosClientId: '378055318934-1h460c2k676n2kn2dcvbgpfqp54didf2.apps.googleusercontent.com',
-    iosBundleId: 'com.example.nomnoman',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBnP5oCGTe7jydqDZF0_u01TE7MeqrJQkY',
-    appId: '1:378055318934:ios:6d853d4e8739f9652011b7',
-    messagingSenderId: '378055318934',
-    projectId: 'nomnoman-f80eb',
-    storageBucket: 'nomnoman-f80eb.appspot.com',
-    iosClientId: '378055318934-1h460c2k676n2kn2dcvbgpfqp54didf2.apps.googleusercontent.com',
-    iosBundleId: 'com.example.nomnoman',
-  );
 }
